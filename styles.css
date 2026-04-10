@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f7e6;
+    text-align: center;
+    padding: 30px;
+}
+
+h1 {
+    color: #2d6a2d;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#actions {
+    margin-bottom: 30px;
+}
+
+#actions button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    margin: 0 10px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#actions button:hover {
+    background-color: #388e3c;
+    box-shadow: 10px 25px;
+}
